@@ -1,0 +1,211 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": "1",
+      "account": 100899,
+      "name": "Joko Anwar",
+      "email": "jokoanwar@mail.com",
+      "password": "12345",
+      "balance": 20000,
+      "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rRdMy8w8hhWeIHxZlQtwuopdSHoldQqPvQ&s"
+    },
+    {
+      "id": "2",
+      "account": 100890,
+      "name": "Anwar Joko",
+      "email": "anwarjoko@mail.com",
+      "password": "12345",
+      "balance": 20000,
+      "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rRdMy8w8hhWeIHxZlQtwuopdSHoldQqPvQ&s"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "date": 1733811560,
+      "type": "DEBIT",
+      "address": "310001001",
+      "desc": "Payment for invoice #001",
+      "amount": 1000000
+    },
+    {
+      "id": "2",
+      "date": 1733811562,
+      "type": "CREDIT",
+      "address": "10001",
+      "desc": "Refund for order #5678",
+      "amount": 2500000
+    },
+    {
+      "id": "3",
+      "date": 1733811564,
+      "type": "DEBIT",
+      "address": "310001002",
+      "desc": "Subscription fee for March",
+      "amount": 1500000
+    },
+    {
+      "id": "4",
+      "date": 1733811566,
+      "type": "CREDIT",
+      "address": "10002",
+      "desc": "Rebate for account #7890",
+      "amount": 3000000
+    },
+    {
+      "id": "5",
+      "date": 1733811568,
+      "type": "DEBIT",
+      "address": "310001003",
+      "desc": "Loan installment #3",
+      "amount": 2000000
+    },
+    {
+      "id": "6",
+      "date": 1733811570,
+      "type": "CREDIT",
+      "address": "10003",
+      "desc": "Payment received from client",
+      "amount": 3500000
+    },
+    {
+      "id": "7",
+      "date": 1733811572,
+      "type": "DEBIT",
+      "address": "310001004",
+      "desc": "Purchase of office supplies",
+      "amount": 2500000
+    },
+    {
+      "id": "8",
+      "date": 1733811574,
+      "type": "CREDIT",
+      "address": "10004",
+      "desc": "Interest earned on savings",
+      "amount": 4000000
+    },
+    {
+      "id": "9",
+      "date": 1733811576,
+      "type": "DEBIT",
+      "address": "310001005",
+      "desc": "Utility bill payment",
+      "amount": 3000000
+    },
+    {
+      "id": "10",
+      "date": 1733811578,
+      "type": "CREDIT",
+      "address": "10005",
+      "desc": "Commission from sales",
+      "amount": 4500000
+    },
+    {
+      "id": "11",
+      "date": 1733811580,
+      "type": "DEBIT",
+      "address": "310001006",
+      "desc": "Rent payment for April",
+      "amount": 3500000
+    },
+    {
+      "id": "12",
+      "date": 1733811582,
+      "type": "CREDIT",
+      "address": "10006",
+      "desc": "Dividend from investments",
+      "amount": 5000000
+    },
+    {
+      "id": "13",
+      "date": 1733811584,
+      "type": "DEBIT",
+      "address": "310001007",
+      "desc": "Salary deduction for tax",
+      "amount": 4000000
+    },
+    {
+      "id": "14",
+      "date": 1733811586,
+      "type": "CREDIT",
+      "address": "10007",
+      "desc": "Bonus from employer",
+      "amount": 5500000
+    },
+    {
+      "id": "15",
+      "date": 1733811588,
+      "type": "DEBIT",
+      "address": "310001008",
+      "desc": "Car maintenance expense",
+      "amount": 4500000
+    },
+    {
+      "id": "16",
+      "date": 1733811590,
+      "type": "CREDIT",
+      "address": "10008",
+      "desc": "Gift received from family",
+      "amount": 6000000
+    },
+    {
+      "id": "17",
+      "date": 1733811592,
+      "type": "DEBIT",
+      "address": "310001009",
+      "desc": "Medical insurance premium",
+      "amount": 5000000
+    },
+    {
+      "id": "18",
+      "date": 1733811594,
+      "type": "CREDIT",
+      "address": "10009",
+      "desc": "Lottery winnings",
+      "amount": 6500000
+    },
+    {
+      "id": "19",
+      "date": 1733811596,
+      "type": "DEBIT",
+      "address": "310001010",
+      "desc": "Charitable donation",
+      "amount": 5500000
+    },
+    {
+      "id": "20",
+      "date": 1733811598,
+      "type": "CREDIT",
+      "address": "10010",
+      "desc": "Reimbursement for travel",
+      "amount": 7000000
+    }
+  ]
+}
